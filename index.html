@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>matilde's portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.css"/>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css"/>
+        
+      </head>
+      <body>
+        <header>
+          <nav id="nav-bar">
+            <!--<img src="" alt="logo">-->
+            <div class="top-nav">
+              <span class="logo">&ltmatilde_garelik&gt</span>
+              <a href="#contact">Contact</a>
+              <a href="#projects">Projects</a>
+              <a href="#me">About Me</a>
+              <a href="#home">Home</a>
+            </div>
+          </nav>
+        </header>
+        
+        <section id="home" class="introduction">
+      
+          <h1 class="introduction__title">Trying to share some of my knowledge, <br>but still in the endless process of learning.</h1>
+            <p class="introduction__subtitle">Matilde Garelik / Junior Programmer</p>
+          <img src="https://cdn.dribbble.com/users/1894420/screenshots/11563516/media/abc4d54106c0d84edc9d9ce992ec5306.gif" alt= "drawing">
+        </section>
+        
+        <section id="me" class="resume">
+          <br><br>
+          <h2 class="resume__title">About me</h2>
+          <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.</p>
+            <p>Nunc sed ipsum at massa venenatis cursus eget sit amet quam. Phasellus viverra ex id ultrices molestie. Pellentesque urna nibh, cursus et sapien nec, elementum eleifend ipsum. Vivamus nunc arcu, mattis eu ante vel, aliquam mollis elit. Sed hendrerit justo vitae convallis finibus. In ut accumsan risus. Cras accumsan ex a volutpat tempus. Curabitur vehicula efficitur ultrices. Aliquam in tincidunt velit, ut tristique quam.</p>
+            <p>Vivamus odio ante, pharetra vel tempor sit amet, finibus vitae urna. Nulla facilisi. In in ligula posuere, tincidunt nibh in, convallis justo. Fusce dictum dolor ut est fermentum placerat. Cras ornare eros nisl, vel ultricies justo faucibus non. Pellentesque convallis ante sem, sed fermentum ligula commodo quis. Nunc vitae iaculis lorem, eu dapibus erat. Vestibulum eget ipsum fringilla, euismod nulla et, convallis lectus. Nulla non gravida ex. Integer consectetur libero id tellus sollicitudin accumsan. Etiam libero lectus, bibendum id suscipit ut, bibendum ac urna.</p></div>
+          <div class="skills">
+            <h3 class="resume__subtitle">Skills</h3>
+            <ul class="skills__ul">
+              <li class="skills__li"><big>#</big>Python</li>
+              <li class="skills__li"><big>#</big>Django</li>
+              <li class="skills__li"><big>#</big>HTML5</li>
+              <li class="skills__li"><big>#</big>CSS3</li>
+              <li class="skills__li"><big>#</big>Javascript</li>
+              <li class="skills__li"><big>#</big>C++</li>
+              <li class="skills__li"><big>#</big>Latex</li>
+              <li class="skills__li"><big>#</big>Git/Github</li>
+              <li class="skills__li"><big>#</big>PHP</li>
+              <li class="skills__li"><big>#</big>SQLite</li>
+              <li class="skills__li"><big>#</big>MySQL</li>
+              <li class="skills__li"><big>#</big>Tensorflow</li>
+              <li class="skills__li"><big>#</big>PyTorch</li>
+              <li class="skills__li"><big>#</big>Matplotlib</li>
+              <li class="skills__li"><big>#</big>JAVA</li>
+              <li class="skills__li"><big>#</big>C</li>
+            </ul>
+      
+            <!--proximamente: java, c, node.js, vue.js, angular, react, react native, mongodb, electron js-->
+          </div>
+          <div class="certificates">
+            <h3 class="resume__subtitle">Certificates-courses/achievements/cv?</h3>
+          </div>
+        </section>
+        
+        <section id="projects" class="projects">
+          <br><br>
+          <h2 class="projects__title">Projects</h2>
+          <!--Para cada proyecto debería ir un titulo, una imagen, una breve descripcion y un link para ver más. Estaría bueno disponerlos como un carrusel-->
+          <div class="projects__ml">
+            <h3 class="projects__subtitle">Deep and Machine Learning</h3>
+           <div class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell">
+              <h4 class="projects__subsubtitle">Infiltration detection</h4>
+              <div class="cell-content">
+                <div class="img-wrapper"><a href="https://www.kaggle.com/matildeg/infiltration2#PLOTTING-THE-RESULTS" target="_blank"><img  src="https://www.nih.gov/sites/default/files/news-events/news-releases/2017/20170927-lung-mass.jpg"></a>    </div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                 <a class="link" href="" target="_blank">view code</a></p>
+              </div>
+                  
+            </div>
+            <div class="gallery-cell"><h4 class="projects__subsubtitle">MNIST Fashion Predictor</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><a href="https://colab.research.google.com/drive/1bsOQoDQuXi5smEQPndRwbRkEo43JyvNb?usp=sharing" target="_blank"><img  src="https://storage.googleapis.com/tfds-data/visualization/fig/fashion_mnist-3.0.1.png"></a>    </div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                 <a class="link" href="" target="_blank">view code</a></p>
+              </div></div>
+            <div class="gallery-cell"><h4 class="projects__subsubtitle">MNIST Predictor</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><img  src="https://camo.githubusercontent.com/01c057a753e92a9bc70b8c45d62b295431851c09cffadf53106fc0aea7e2843f/687474703a2f2f692e7974696d672e636f6d2f76692f3051493378675875422d512f687164656661756c742e6a7067">    </div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                 <a class="link" href="" target="_blank">view code</a></p>
+              </div></div>
+            <div class="gallery-cell"><h4 class="projects__subsubtitle">Type of flower</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><a href="https://colab.research.google.com/drive/1RDiRFxjOeL4ln4GE1s3SKcpUfBoeFmSr" target="_blank"><img  src="https://www.researchgate.net/profile/Marco_Seeland/publication/314028101/figure/fig3/AS:465655439859714@1488032316487/Challenging-examples-from-the-Jena-Flower-30-JF30-dataset-a-and-b-Evolution-of-two.png"></a>    </div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                 <a class="link" href="" target="_blank">view code</a></p>
+              </div>
+              </div>
+            <div class="gallery-cell">
+             <h4 class="projects__subsubtitle">Cifar 10</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><a href="https://colab.research.google.com/drive/1BomCIS53yWH4gtil9Y9W2tZWbRQCx4vQ" target="_blank"><img  src="https://datasmarts.net/es/wp-content/uploads/2019/09/cifar10_plot.png"></a>  </div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                 <a class="link" href="" target="_blank">view code</a>
+               </p>
+                
+              </div></div>
+         </div>
+            
+          </div>
+          <div class="projects__wd">
+            <h3 class="projects__subtitle">Web Development</h3>
+            
+            <div class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell">
+              <h4 class="projects__subsubtitle">Clinic Admin Site</h4>
+              <div class="cell-content">
+                <div class="img-wrapper"><a href="https://gumerachamedical.com.au/administrator/login" target="_blank"><img src="https://3.bp.blogspot.com/-hKN0pvCwYzo/W5PuTttGLLI/AAAAAAAAAa0/Qu7suQwr084-dAFfZwEtnSzp_h82ArkEACLcBGAs/s1600/login_usuario.jpg"></a></div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                 <a href="https://github.com/matildegarelik/tpfinal-fullstack-django" target="_blank">view code</a>    </p>
+              </div>
+            </div>
+            <div class="gallery-cell">
+              <h4 class="projects__subsubtitle">Flappy Bird</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><a href="https://flappybird.io/" target="_blank"><img src="https://c4.wallpaperflare.com/wallpaper/838/630/344/flappy-bird-game-popular-news-wallpaper-preview.jpg"></a></div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                 <a href="https://github.com/matildegarelik/flappy-bird" target="_blank">view code</a>
+               </p>
+                
+              </div>
+            </div>
+            <div class="gallery-cell">
+              <h4 class="projects__subsubtitle">Free Code Camp Course Projects</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png"></a></div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                <a href="https://github.com/matildegarelik/FCC-courses/tree/main/responsive%20web%20design" target="_blank">view Code</a></p>
+              </div>
+            </div>
+            <div class="gallery-cell">
+              <h4 class="projects__subsubtitle">Alguna app de PHP</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><a href="#" target="_blank"><img src=""></a></div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                <a href="" target="_blank">view code</a></p>
+              </div>
+            </div>
+            <div class="gallery-cell">
+              <h4 class="projects__subsubtitle">ALgo más de DB</h4>
+              <div class="cell-content">
+              <div class="img-wrapper"><a href="#"  target="_blank"><img src=""></a></div>
+               <p class="projects__descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare libero felis, sit amet imperdiet augue tincidunt sed. Aliquam sapien nulla, iaculis non commodo vel, tincidunt et enim. Mauris congue nec ligula sed aliquam. Mauris lacinia tellus sapien, sit amet ullamcorper sapien ultricies non. Sed sodales gravida libero, quis eleifend lorem tempus sed. Fusce aliquam diam sit amet orci porttitor congue. Cras nec risus ultricies, tristique diam quis, porta urna.<br>
+                <a href="" target="_blank">view code>"</a></p>
+              </div>
+            </div>
+         </div>
+            
+          </div>
+           
+        </section>
+        
+        <section id="contact" class="contact">
+          <h2>Contact</h2>
+          <div class="contact__list">
+            <ul>
+              <li class="contact__item">Github</li>
+              <li class="contact__item">Linkedin</li>
+              <li class="contact__item">Fiverr</li>
+              <li class="contact__item">Mail</li>
+            </ul>
+          </div>
+        </section>
+        
+      </body>
+</html>
